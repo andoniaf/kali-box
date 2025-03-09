@@ -19,7 +19,7 @@ RUN apt-get update && \
     kali-linux-${KALI_METAPACKAGE} \
     kali-tools-top10 \
     kali-desktop-${KALI_DESKTOP} \
-    tightvncserver xfonts-base \
+    tightvncserver xfonts-base autocutsel \
     dbus dbus-x11 \
     novnc \
     ${BASE_PACKAGES} && \
