@@ -63,5 +63,10 @@ docker build -t kali-box .
 docker run --rm -it -p 9020:8080 -p 9021:5900 kali-box
 ```
 
+## Issues
+- [ ] Copy/pasting though VNC not working by default:
+  - I need to run `autocutsel -fork` manually to enable it.
+
+
 ---
 Based on https://github.com/steinruck/kali-xfce-novnc
